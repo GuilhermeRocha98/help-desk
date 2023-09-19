@@ -11,7 +11,7 @@ public enum Perfil {
         this.descricao = descricao;
     }
 
-    public Integer getCodigo() {
+    public Perfil getCodigo() {
         return codigo;
     }
 
@@ -19,7 +19,7 @@ public enum Perfil {
         return descricao;
     }
 
-    public static Perfil toEnum(Integer cod){
+    public static Perfil toEnum(Perfil cod){
         if (cod == null) {
             return null;
         }
